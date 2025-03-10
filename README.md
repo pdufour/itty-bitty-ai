@@ -4,7 +4,7 @@ A lightweight AI-powered text editor built with Rust, egui, and llama.cpp.
 
 It compiles to a web app or desktop app.
 
-![site](https://github.com/pdufour/itty-bitty-ai/raw/main/public/itty-bitty-ai.webp)
+![site](https://github.com/pdufour/itty-bitty-ai/raw/main/itty-bitty-ai.webp)
 
 ## Features
 
