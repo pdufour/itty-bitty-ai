@@ -92,6 +92,7 @@ To build for web deployment:
 
 This application is built with:
 - [egui](https://github.com/emilk/egui/) for the UI framework - a portable immediate mode GUI framework written in Rust
+- [eframe-template](https://github.com/emilk/eframe_template) for the eframe boilerplate
 - [candle](https://github.com/huggingface/candle) for the machine learning backend
 
 ## License

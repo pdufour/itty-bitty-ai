@@ -22,7 +22,7 @@ jobs:
       - name: Setup toolchain for wasm
         run: |
           rustup update stable
-          rustup default stable
+          rustup default 1.81.0
           rustup set profile minimal
           rustup target add wasm32-unknown-unknown
       - name: Rust Cache # cache the rust build artefacts
