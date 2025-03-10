@@ -28,7 +28,7 @@ candle = { package = "candle-core", version = "0.8.3" }
 candle-nn = "0.8.3"
 candle-transformers = "0.8.3"
 byteorder = "1.4.3"
-tokenizers = { git = "https://github.com/huggingface/tokenizers", branch = "main", default-features = false, features = ["unstable_wasm", "rustls-tls"] }
+tokenizers = { git = "https://github.com/huggingface/tokenizers", rev = "4f1a810", default-features = false, features = ["unstable_wasm", "rustls-tls"] }
 anyhow = { version = "1", features = ["backtrace"] }
 
 # Wasm specific crates
