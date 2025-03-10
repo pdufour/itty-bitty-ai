@@ -1,0 +1,19 @@
+[target.aarch64-apple-darwin]
+rustflags = [
+  "-L", "/opt/homebrew/opt/openssl@3/lib",
+  "-l", "ssl",
+  "-l", "crypto",
+]
+
+[build]
+rustflags = [
+  "-L", "/opt/homebrew/opt/openssl@3/lib",
+  "-L", "/opt/homebrew/lib",
+]
+
+[env]
+OPENSSL_DIR = "/opt/homebrew/opt/openssl@3"
+OPENSSL_LIB_DIR = "/opt/homebrew/opt/openssl@3/lib"
+OPENSSL_INCLUDE_DIR = "/opt/homebrew/opt/openssl@3/include"
+PKG_CONFIG_PATH = "/opt/homebrew/opt/openssl@3/lib/pkgconfig"
+OPENSSL_NO_VENDOR = "1" 
